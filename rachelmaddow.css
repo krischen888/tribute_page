@@ -1,0 +1,84 @@
+/******************************************************************************
+ * Filename:
+ * rachelmaddow.css
+ * 
+ * Associated File(s):
+ * maddowTribute.html
+ * rachelmaddow.css
+ *
+ * Modifications:;
+ * KC	02-19-2018	TUE  Created and updated for Rachel Maddow Tribute Page
+ ******************************************************************************
+ */
+@media screen and (max-width: 991px) {
+	/* start of large tablet styles */
+	.img-responsive {
+		min-width: 70%;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	/* start of medium tablet styles */
+	/* Adding a fixed/percentage min-width could ensure that the image 
+	 * doesn't get too small 
+	 */
+	.img-responsive {
+		min-width: 30%;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	/* start of phone styles */
+	/* It's possible to hide the image if the screen becomes too small */
+	.img-responsive {
+	  min-width: 10%;
+	}
+}
+
+body {
+	background-color: lightgreen;
+	margin-top: 10px;
+}
+
+.container {	
+	margin-right: 2%;
+	margin-left: 2%;	
+}
+
+.jumbotron {
+	background-color: lightyellow;
+}
+
+.jumbotron h4 {
+	font-family: Shrikhand;
+	letter-spacing: 2px;
+}
+
+.well h3 {
+	font-family: Rammetto One;
+	font-weight: normal;
+	font-style: italic;
+}
+
+#main-well {
+	background-color: #DDDF7C;
+	/*background-color: lightyellow;*/
+	border-style: transparent;
+}
+
+#maddow-pic {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: auto;
+}
+
+.maddow-pics {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	height: auto;
+}
+
